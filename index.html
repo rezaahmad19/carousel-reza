@@ -6,20 +6,21 @@
   <title>Carousel Reza</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      background: transparent;
       font-family: sans-serif;
-      background: #1c1f2a;
     }
 
     .swiper {
-      width: 90%;
-      max-width: 900px;
-      height: auto;
-      margin: 40px auto;
-      border-radius: 15px;
-      overflow: hidden;
-      background: #fff;
+      width: 100vw;
+      height: 100vh;
     }
 
     .swiper-slide {
@@ -29,14 +30,14 @@
     }
 
     .swiper-slide img {
-      width: 100%;
-      height: auto;
+      width: 100vw;
+      height: 100vh;
       object-fit: cover;
     }
 
     .swiper-button-next,
     .swiper-button-prev {
-      color: #fff;
+      color: white;
     }
   </style>
 </head>
